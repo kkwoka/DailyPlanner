@@ -10,7 +10,8 @@
 
     <!-- Added a link to Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-   
+    <link rel="stylesheet" href="style.css">
+
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -21,7 +22,6 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="Assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -37,79 +37,77 @@
         <div class="head container-xs container-sm container-md container-lg container-xl wrapper">
             <div class="row">
                 <label class="col-sm-2 timeSlot" id="nineTime"><b>9 a.m.</b></label>
-                <input class="col-sm-8 toDo" id="nineToDo" placeholder="To Do Stuffs"></input>
+                <input class="col-sm-8 toDo" id="09" placeholder="To Do"></input>
                 <label class="col-sm-2 saveSlot" id="nineSave"><a style="text-decoration: none"><i class="far fa-save"></i></a></label>
             </div>
 
-                <div class="hide container myDIV">
+                <div class="hide container">
                     <div class="row container">
-                      <label class="col-sm-2 timeSlot hidden9" id="ninefifteen"><b>9:15 a.m.</b></label>
-                      <input class="col-sm-8 toDo hidden9" id="nineFifteenToDo" placeholder="To Do Stuffs"></input>
-                      <label class="col-sm-2 saveSlot hidden9" id="ninefifteenSave"><a style="text-decoration: none"><i class="far fa-save"></i></a></label>
+                      <label class="col-sm-2 timeSlot"><b>9:15 a.m.</b></label>
+                      <input class="col-sm-8 toDo nineFifteenToDo" id="09" placeholder="To Do"></input>
+                      <label class="col-sm-2 saveSlot" id="ninefifteenSave"><a style="text-decoration: none"><i class="far fa-save"></i></a></label>
                     </div>
                     <div class="row container">
-                      <label class="col-sm-2 timeSlot hidden9" id="ninethirty"><b>9:30 a.m.</b></label>
-                      <input class="col-sm-8 toDo hidden9" id="nineThirtyToDo" placeholder="To Do Stuffs"></input>
-                      <label class="col-sm-2 saveSlot hidden9" id="ninethirtySave"><a style="text-decoration: none"><i class="far fa-save"></i></a></label>
+                      <label class="col-sm-2 timeSlot"><b>9:30 a.m.</b></label>
+                      <input class="col-sm-8 toDo nineThirtyToDo" id="09" placeholder="To Do"></input>
+                      <label class="col-sm-2 saveSlot" id="ninethirtySave"><a style="text-decoration: none"><i class="far fa-save"></i></a></label>
                     </div>
                     <div class="row container">
-                      <label class="col-sm-2 timeSlot hidden9" id="ninefourtyfive"><b>9:45 a.m.</b></label>
-                      <input class="col-sm-8 toDo hidden9" id="nineFourtyFiveToDo" placeholder="To Do Stuffs"></input>
-                      <label class="col-sm-2 saveSlot hidden9" id="ninefourtyfiveSave"><a style="text-decoration: none"><i class="far fa-save"></i></a></label>
+                      <label class="col-sm-2 timeSlot"><b>9:45 a.m.</b></label>
+                      <input class="col-sm-8 toDo nineFourtyFiveToDo" id="09" placeholder="To Do"></input>
+                      <label class="col-sm-2 saveSlot" id="ninefourtyfiveSave"><a style="text-decoration: none"><i class="far fa-save"></i></a></label>
                     </div>
                 </div>
 
             <div class="row">
               <label class="col-sm-2 timeSlot"><b>10 a.m.</b></label>
-              <input class="col-sm-8 toDo 10" id="tenToDo" placeholder="To Do Stuffs"></input>
+              <input class="col-sm-8 toDo" id="10" placeholder="To Do"></input>
               <li class="col-sm-2 saveSlot" id="tenSave"><a style="text-decoration: none"><i class="far fa-save"></i></a></li>
             </div>
 
             <div class="row">
               <label class="col-sm-2 timeSlot"><b>11 a.m.</b></label>
-              <input class="col-sm-8 toDo 11" id="elevenToDo" placeholder="To Do Stuffs"></input>
+              <input class="col-sm-8 toDo" id="11" placeholder="To Do"></input>
               <li class="col-sm-2 saveSlot" id="elevenSave"><a style="text-decoration: none"><i class="far fa-save"></i></a></li>
             </div>
 
             <div class="row">
               <label class="col-sm-2 timeSlot"><b>12 p.m.</b></label>
-              <input class="col-sm-8 toDo 12" id="twelveToDo" placeholder="To Do Stuffs"></input>
+              <input class="col-sm-8 toDo" id="12" placeholder="To Do"></input>
               <li class="col-sm-2 saveSlot" id="twelveSave"><a style="text-decoration: none"><i class="far fa-save"></i></a></li>
             </div>
 
             <div class="row">
               <label class="col-sm-2 timeSlot"><b>1 p.m.</b></label>
-              <input class="col-sm-8 toDo 1" id="oneToDo" placeholder="To Do Stuffs"></input>
+              <input class="col-sm-8 toDo" id="13" placeholder="To Do"></input>
               <li class="col-sm-2 saveSlot" id="oneSave"><a style="text-decoration: none"><i class="far fa-save"></i></a></li>
             </div>
 
             <div class="row">
               <label class="col-sm-2 timeSlot"><b>2 p.m.</b></label>
-              <input class="col-sm-8 toDo 2" id="twoToDo" placeholder="To Do Stuffs"></input>
+              <input class="col-sm-8 toDo" id="14" placeholder="To Do"></input>
               <li class="col-sm-2 saveSlot" id="twoSave"><a style="text-decoration: none"><i class="far fa-save"></i></a></li>
             </div>
 
             <div class="row">
               <label class="col-sm-2 timeSlot"><b>3 p.m.</b></label>
-              <input class="col-sm-8 toDo 3" id="threeToDo" placeholder="To Do Stuffs"></input>
+              <input class="col-sm-8 toDo" id="15" placeholder="To Do"></input>
               <li class="col-sm-2 saveSlot" id="threeSave"><a style="text-decoration: none"><i class="far fa-save"></i></a></li>
             </div>
 
             <div class="row">
-              <label class="col-sm-2 timeSlot 4"><b>4 p.m.</b></label>
-              <input class="col-sm-8 toDo" id="fourToDo" placeholder="To Do Stuffs"></input>
+              <label class="col-sm-2 timeSlot"><b>4 p.m.</b></label>
+              <input class="col-sm-8 toDo" id="16" placeholder="To Do"></input>
               <li class="col-sm-2 saveSlot" id="fourSave"><a style="text-decoration: none"><i class="far fa-save"></i></a></li>
             </div>
 
             <div class="row">
-              <label class="col-sm-2 timeSlot 5"><b>5 p.m.</b></label>
-              <input class="col-sm-8 toDo" id="fiveToDo" placeholder="To Do Stuffs"></input>
+              <label class="col-sm-2 timeSlot"><b>5 p.m.</b></label>
+              <input class="col-sm-8 toDo" id="17" placeholder="To Do"></input>
               <li class="col-sm-2 saveSlot" id="fiveSave"><a style="text-decoration: none"><i class="far fa-save"></i></a></li>        
             </div>
         </div>    
     </div>
-
-    
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

@@ -114,3 +114,11 @@ textarea {
 .myDIV {
   justify-content: center;
 }
+
+#past {
+  background-color: red;
+}
+
+#future {
+  background-color: green;
+}

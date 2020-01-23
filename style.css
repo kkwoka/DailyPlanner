@@ -2,16 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
-  background
-}
-  
-textarea {
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
+  background-image: url("Assets/full-bloom/full-bloom.png");
 }
 
 .jumbotron {
@@ -22,58 +13,24 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-.description{
-  white-space: pre-wrap;
-}
-
-.time-block{
-  text-align: center;
-  border-radius: 15px;
-}
-
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
-}
-
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
-}
-
 .past {
-  background-color: #d3d3d3;
-  color: white;
+  background-color: rosybrown;
+  color: black;
+  border: none;
 }
 
 .present {
-  background-color: #ff6961;
-  color: white;
+  background-color: palegreen;
+  color: brown;
+  border: none;
+  font-weight: bold;
 }
 
 .future {
-  background-color: #77dd77;
-  color: white;
+  background-color: plum !important;
+  color: rgb(100, 121, 237);
+  border: none;
 }
-
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
-}
-
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
-
-
-/* -------------------------------------------------------------------- */
-
 
 .timeSlot {
   text-align: center;
@@ -87,15 +44,12 @@ textarea {
   text-align: left;
   padding: 20px;
   list-style: none;
-  border: 2px black;
-  background-color: silver;
   margin-bottom: 8px;
 }
 
 .saveSlot {
   text-align: center;
   list-style: none;
-  border: black;
   background-color: tomato;
   margin-bottom: 8px;
   padding-top: 20px;
@@ -105,12 +59,4 @@ textarea {
 
 .hide {
   display: none;
-}
-
-/* .dropdown {
-  display: inline-block;
-} */
-
-.myDIV {
-  justify-content: center;
 }
