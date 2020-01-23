@@ -10,13 +10,9 @@ https://kkwoka.github.io/DailyPlanner/
 * Assets/
     * script.js
     * style.css
-    * Assets/full-bloom
+    * Assets/Images
         * full-bloom.png
-        * readme.txt
+        * DayPlanner.png
 
 ## Images of Working Password Generator
-![Image of PassGen1](./Assets/Images/PasswordGeneratorPic.png)
-![Image of CopyToClipboard1](./Assets/Images/CopyToClipboardPic.png)
-
-## Known Bugs
-kkwoka.github.io responds slowly to the given files. Sometimes it will take 1o minutes to latest push. Please be patient.
+![Image of PassGen1](./Assets/Images/DayPlanner.png)
